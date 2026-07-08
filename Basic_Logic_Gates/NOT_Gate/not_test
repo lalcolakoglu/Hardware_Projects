@@ -1,0 +1,38 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000022054ca50e0 .scope module, "not_gate_tb" "not_gate_tb" 2 2;
+ .timescale -9 -12;
+v0000022054ca54a0_0 .var "c", 0 0;
+v0000022054c5e6f0_0 .net "e", 0 0, L_0000022054c72b20;  1 drivers
+S_0000022054ca5270 .scope module, "uut" "not_gate" 2 7, 3 1 0, S_0000022054ca50e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "c";
+    .port_info 1 /OUTPUT 1 "e";
+L_0000022054c72b20 .functor NOT 1, v0000022054ca54a0_0, C4<0>, C4<0>, C4<0>;
+v0000022054c72fa0_0 .net "c", 0 0, v0000022054ca54a0_0;  1 drivers
+v0000022054ca5400_0 .net "e", 0 0, L_0000022054c72b20;  alias, 1 drivers
+    .scope S_0000022054ca50e0;
+T_0 ;
+    %vpi_call 2 13 "$monitor", "c=%b,e=%b", v0000022054ca54a0_0, v0000022054c5e6f0_0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000022054ca54a0_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000022054ca54a0_0, 0, 1;
+    %delay 10000, 0;
+    %vpi_call 2 18 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "not_gate_tb.v";
+    "not_gate.v";

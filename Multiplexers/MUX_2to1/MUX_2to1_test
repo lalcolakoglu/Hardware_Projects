@@ -1,0 +1,48 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000027709a99670 .scope module, "MUX_2to1_tb" "MUX_2to1_tb" 2 3;
+ .timescale -9 -12;
+v0000027709a9bee0_0 .var "in1", 3 0;
+v0000027709b2b820_0 .var "in2", 3 0;
+v0000027709b2b8c0_0 .net "out", 3 0, L_0000027709b2ba00;  1 drivers
+v0000027709b2b960_0 .var "sel", 0 0;
+S_0000027709a99800 .scope module, "uut" "MUX_2to1" 2 9, 3 1 0, S_0000027709a99670;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "in1";
+    .port_info 1 /INPUT 4 "in2";
+    .port_info 2 /INPUT 1 "sel";
+    .port_info 3 /OUTPUT 4 "out";
+v0000027709a99990_0 .net "in1", 3 0, v0000027709a9bee0_0;  1 drivers
+v0000027709ab2b20_0 .net "in2", 3 0, v0000027709b2b820_0;  1 drivers
+v0000027709ab2ef0_0 .net "out", 3 0, L_0000027709b2ba00;  alias, 1 drivers
+v0000027709a9be40_0 .net "sel", 0 0, v0000027709b2b960_0;  1 drivers
+L_0000027709b2ba00 .functor MUXZ 4, v0000027709a9bee0_0, v0000027709b2b820_0, v0000027709b2b960_0, C4<>;
+    .scope S_0000027709a99670;
+T_0 ;
+    %vpi_call 2 17 "$monitor", "in1=%b, in2=%b, sel=%b, out=%b", v0000027709a9bee0_0, v0000027709b2b820_0, v0000027709b2b960_0, v0000027709b2b8c0_0 {0 0 0};
+    %pushi/vec4 5, 0, 4;
+    %store/vec4 v0000027709a9bee0_0, 0, 4;
+    %pushi/vec4 12, 0, 4;
+    %store/vec4 v0000027709b2b820_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000027709b2b960_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000027709b2b960_0, 0, 1;
+    %delay 10000, 0;
+    %vpi_call 2 24 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "MUX_2to1_tb.v";
+    "MUX_2to1.v";
