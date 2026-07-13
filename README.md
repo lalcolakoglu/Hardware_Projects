@@ -19,6 +19,12 @@ This contains my digital design projects written in Verilog.
 - 2-to-4 (case)
 - 2-to-4 (if-else)
 
+### Encoders
+- 4-to-2 (case)
+- 4-to-2 (if-else)
+- 4-to-2 priority encoder
+
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -29,8 +35,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Decoder
-- Encoder
 - Adder
 - ALU
 - Register
