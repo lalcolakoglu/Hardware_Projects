@@ -1,0 +1,12 @@
+# Icarus Verilog outputs
+*_test
+*.out
+
+# Windows executables
+*.exe
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
