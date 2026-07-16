@@ -38,7 +38,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Adder
 - ALU
 - Register
 - Register File
