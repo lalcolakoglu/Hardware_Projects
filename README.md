@@ -38,7 +38,10 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- ALU
+- 4-bit Ripple Carry Adder
+- 4-bit ALU
 - Register
 - Register File
+- Counter
 - Finite State Machine (FSM)
+- Memory
