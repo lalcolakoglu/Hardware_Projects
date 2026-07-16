@@ -24,6 +24,9 @@ This contains my digital design projects written in Verilog.
 - 4-to-2 (if-else)
 - 4-to-2 priority encoder
 
+### Adders
+- Half Adder
+- Full Adder (using 2 half adders and 1 or gate)
 
 ## Tools
 - Verilog
