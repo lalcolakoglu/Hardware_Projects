@@ -27,6 +27,7 @@ This contains my digital design projects written in Verilog.
 ### Adders
 - Half Adder
 - Full Adder (using 2 half adders and 1 or gate)
+- 4-bit Ripple Carry Adder
 
 ## Tools
 - Verilog
@@ -38,7 +39,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- 4-bit Ripple Carry Adder
 - 4-bit ALU
 - Register
 - Register File
