@@ -1,4 +1,4 @@
-// i used the half adder i wrote before
+// i used the half adder that i wrote before
 module Full_Adder(
     input A,
     input B,
