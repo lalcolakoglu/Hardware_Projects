@@ -31,10 +31,13 @@ This contains my digital design projects written in Verilog.
 
 ### ALU
 - 4-bit ALU
- -ADD
- -SUB
+ -Addition
+ -Subtraction
  -AND
  -OR
+
+ ### Sequential Logic
+ - 4-bit Register with synchronous reset
 
 ## Tools
 - Verilog
@@ -46,8 +49,8 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Register
-- Register File
+- D Flip-Flop
 - Counter
+- Register File
 - Finite State Machine (FSM)
 - Memory
