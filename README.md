@@ -39,6 +39,10 @@ This contains my digital design projects written in Verilog.
  ### Sequential Logic
  - 4-bit Register with synchronous reset
 
+ ### Flip-Flops
+ - 4-bit D Flip-Flop
+ - 4-bit T Flip-Flop
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -49,7 +53,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- D Flip-Flop
 - Counter
 - Register File
 - Finite State Machine (FSM)
