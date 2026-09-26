@@ -42,6 +42,8 @@ This contains my digital design projects written in Verilog.
  ### Flip-Flops
  - 4-bit D Flip-Flop
  - 4-bit T Flip-Flop
+ - 4-bit JK Flip-Flop
+ - 4-bit SR Flip-Flop
 
 ## Tools
 - Verilog
