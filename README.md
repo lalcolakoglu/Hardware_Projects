@@ -45,6 +45,10 @@ This contains my digital design projects written in Verilog.
  - 4-bit JK Flip-Flop
  - 4-bit SR Flip-Flop
 
+ ### Counters
+ - 4-bit Synchronous Up Counter
+ - 4-bit Synchronous Down Counter
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -55,7 +59,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Counter
 - Register File
 - Finite State Machine (FSM)
 - Memory
