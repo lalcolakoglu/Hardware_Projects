@@ -49,6 +49,13 @@ This contains my digital design projects written in Verilog.
  - 4-bit Synchronous Up Counter
  - 4-bit Synchronous Down Counter
 
+ ### Register File
+- 8 registers
+- 4-bit data width
+- Synchronous reset
+- Write enable
+- Two combinational read ports
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -59,6 +66,5 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Register File
 - Finite State Machine (FSM)
 - Memory
