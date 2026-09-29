@@ -56,6 +56,10 @@ This contains my digital design projects written in Verilog.
 - Write enable
 - Two combinational read ports
 
+### Finite State Machine (FSM)
+- 2-State FSM
+- Traffic Light FSM
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -66,5 +70,4 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Finite State Machine (FSM)
 - Memory
