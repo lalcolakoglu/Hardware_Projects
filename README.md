@@ -60,6 +60,9 @@ This contains my digital design projects written in Verilog.
 - 2-State FSM
 - Traffic Light FSM
 
+### Memory
+- 8x4 Memory
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -70,4 +73,9 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Memory
+- Comparator
+- Elevator FSM
+- UART Transmitter
+- Instruction Decoder
+- Control Unit
+- CPU
