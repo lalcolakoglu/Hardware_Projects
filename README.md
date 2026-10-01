@@ -63,6 +63,10 @@ This contains my digital design projects written in Verilog.
 ### Memory
 - 8x4 Memory
 
+### Comparator
+- 4-bit Comparator
+- Parameterized Comparator
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -73,7 +77,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Comparator
 - Elevator FSM
 - UART Transmitter
 - Instruction Decoder
