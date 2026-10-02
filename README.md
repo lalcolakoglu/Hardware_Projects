@@ -59,6 +59,7 @@ This contains my digital design projects written in Verilog.
 ### Finite State Machine (FSM)
 - 2-State FSM
 - Traffic Light FSM
+- Elevator FSM
 
 ### Memory
 - 8x4 Memory
@@ -77,7 +78,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Elevator FSM
 - UART Transmitter
 - Instruction Decoder
 - Control Unit
