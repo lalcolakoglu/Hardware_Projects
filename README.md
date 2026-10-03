@@ -68,6 +68,9 @@ This contains my digital design projects written in Verilog.
 - 4-bit Comparator
 - Parameterized Comparator
 
+### UART
+- UART Transmitter (8-bit data, LSB first, parameterized clock cycles per bit)
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -78,7 +81,6 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- UART Transmitter
 - Instruction Decoder
 - Control Unit
 - CPU
