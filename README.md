@@ -71,6 +71,12 @@ This contains my digital design projects written in Verilog.
 ### UART
 - UART Transmitter (8-bit data, LSB first, parameterized clock cycles per bit)
 
+### Instruction Decoder
+
+- 8-bit instruction decoder
+- ADD, SUB, LOAD, STORE
+- Register and operand extraction
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -81,6 +87,5 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Instruction Decoder
 - Control Unit
 - CPU
