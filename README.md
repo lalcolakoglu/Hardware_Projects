@@ -77,6 +77,13 @@ This contains my digital design projects written in Verilog.
 - ADD, SUB, LOAD, STORE
 - Register and operand extraction
 
+### Control Unit
+- MIPS-style Control Unit
+- ALU Control
+- 2-bit ALU integration
+- Supported R-type instructions: ADD, SUB, AND, OR
+- LW and BEQ control
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -87,5 +94,4 @@ Lal Çolakoğlu
 
 ## Planned Projects
 
-- Control Unit
 - CPU
