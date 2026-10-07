@@ -5,9 +5,9 @@ module Instruction_Memory(
 );
 reg [31:0] memory [0:235];
 initial begin
-    memory[0]=32'd45645;
-    memory[1]=32'd0;
-    memory[2]=32'hABFC;
+    memory[0] = 32'b10101100000010010000000000000100; //sw
+    memory[1]= 32'b10001100000010000000000000000100; //lw
+    memory[3]=32'b00010001000010010000000000000001; //beq
 end 
 assign instruction = memory[address[9:2]];
 endmodule

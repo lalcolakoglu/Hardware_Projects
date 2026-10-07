@@ -84,6 +84,21 @@ This contains my digital design projects written in Verilog.
 - Supported R-type instructions: ADD, SUB, AND, OR
 - LW and BEQ control
 
+### CPU
+- Single-cycle MIPS CPU
+- Program Counter (PC)
+- Instruction Memory
+- Instruction Field Extraction
+- Register File
+- Sign Extension
+- Data Memory
+- Integrated Control Unit, ALU Control, and 32-bit ALU
+- R-type instructions: ADD, SUB, AND, OR
+- Memory instructions: LW, SW
+- Branch instruction: BEQ
+- PC + 4 and branch target calculation
+- CPU datapath and integration testbench
+
 ## Tools
 - Verilog
 - Icarus Verilog
@@ -92,6 +107,4 @@ This contains my digital design projects written in Verilog.
 ## Author
 Lal Çolakoğlu
 
-## Planned Projects
 
-- CPU
